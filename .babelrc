@@ -3,11 +3,13 @@
         "env"
     ],
     "plugins": [
+        "add-module-exports",
         [
             "transform-react-jsx",
             {
                 "pragma": "React.createElement"
             }
         ]
+        
     ]
 }
