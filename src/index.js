@@ -11,7 +11,7 @@ class App extends React.Component {
     }
     handleClick(){
         this.setState({
-            number: this.state.number++
+            number: ++this.state.number
         });
     }
     componentWillUpdate() {
